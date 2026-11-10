@@ -1,0 +1,17 @@
+[project]
+name = "tsfm-phm-benchmark"
+version = "0.1.0"
+description = "A benchmark for the TSFM on PHM project."
+readme = "README.md"
+authors = [
+    { name = "imran-git-000", email = "imran.chouybat1@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+tsfm-phm-benchmark = "tsfm_phm_benchmark:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
